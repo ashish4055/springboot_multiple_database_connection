@@ -1,0 +1,34 @@
+#Database Configuration for SQLServer
+db1:
+  datasource:
+    jdbc-url: jdbc:sqlserver://localhost:1433;databaseName=products;encrypt=false;instance=DG;trustServerCertificate=true
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: root
+#Hibernate Configuration
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.SQLServerDialect
+
+#Database Configuration for Mysql
+db2:
+  datasource:
+      jdbc-url: jdbc:mysql://localhost:3306/customer
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: root
+#Hibernate configuration
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+
+
+
